@@ -1,4 +1,4 @@
-name: Bug report
+name: AnnData Bug report
 description: anndata doesn’t do what it should? Please help us fix it!
 #title: ...
 labels: ["Bug 🐛"]
