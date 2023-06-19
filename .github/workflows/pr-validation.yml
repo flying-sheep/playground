@@ -24,5 +24,7 @@ jobs:
     name: Check Milestone
     runs-on: ubuntu-latest
     steps:
+      - run: echo "event name is:" ${{ github.event_name }}
+      - run: echo "event type is:" ${{ github.event.action }}
       - if: github.event.pull_request.milestone == null && contains( env.LABELS, 'no milestone' ) == false
         run: exit 1
