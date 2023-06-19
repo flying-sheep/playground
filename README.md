@@ -1,3 +1,3 @@
 # playground
 
-Test GitHub stuff that has no good preview functionality
+Test GitHub stuff that has no good preview functionality.
