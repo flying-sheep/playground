@@ -53,11 +53,11 @@ body:
       description: Paste the output of `import scanpy; scanpy.logging.print_versions()` between the lines of backticks (\`\`\`)
       value: |
         <details>
-  
+
         ```
-  
+
         ```
-  
+
         </details>
     validations:
       required: true
